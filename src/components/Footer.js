@@ -6,12 +6,45 @@ import logoFundacao from "../img/logo-fundacaopedroamerico.svg";
 import logoUnifacisa from "../img/logo-unifacisa.svg";
 import logoCultura from "../img/logo-cultura.svg";
 
+//icons
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+
 //styles
 import "../styles/footer.scss";
 
 const Footer = () => {
   return (
     <footer className="main-footer">
+      <section className="social-links">
+        <div className="container">
+          <ul>
+            <li>
+              <a href="/">
+                <FaFacebook />
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <FaInstagram />
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <FaYoutube />
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <FaTwitter />
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div className="container">
         <div className="about">
           <img

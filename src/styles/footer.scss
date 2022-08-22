@@ -1,6 +1,42 @@
 @import "./index.scss";
 
 .main-footer {
+  .social-links {
+    background-color: #f3f3f3;
+    ul {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      @include md {
+        flex-direction: row;
+        margin-bottom: 0;
+      }
+      li {
+        background-color: $main-blue;
+        filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.05));
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        @include md {
+          margin: 0 1rem;
+        }
+      }
+    }
+    a,
+    a:visited {
+      align-items: center;
+      color: #fff;
+      display: flex;
+    }
+    a:hover,
+    a:active {
+      text-decoration: none;
+    }
+    svg {
+      color: $light-blue;
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  }
   background-color: $dark-blue;
   color: #fff;
   a,
