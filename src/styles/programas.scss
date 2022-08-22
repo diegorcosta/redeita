@@ -13,8 +13,12 @@
     align-items: center;
     display: flex;
     svg {
+      font-size: 8rem;
       cursor: pointer;
-      color: $dark-blue;
+      color: $light-blue;
+    }
+    svg:hover {
+      opacity: 0.9;
     }
   }
   .scroll {

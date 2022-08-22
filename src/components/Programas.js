@@ -22,7 +22,7 @@ const Programas = () => {
       <div className="container">
         <h1>Programas</h1>
         <div className="arrow">
-          <MdChevronLeft className="left-arrow" onClick={slideLeft} />
+          <MdChevronLeft onClick={slideLeft} />
           <div className="scroll" id="slider">
             <ul>
               {listaProgramas.map((programa) => (
@@ -34,7 +34,7 @@ const Programas = () => {
               ))}
             </ul>
           </div>
-          <MdChevronRight className="right-arrow" onClick={slideRight} />
+          <MdChevronRight onClick={slideRight} />
         </div>
       </div>
     </section>
