@@ -1,0 +1,32 @@
+@import "./index.scss";
+
+.programas {
+  padding: 2rem 0;
+  h1 {
+    border-bottom: 1px solid $light-blue;
+    color: $dark-blue;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  .arrow {
+    align-items: center;
+    display: flex;
+    svg {
+      cursor: pointer;
+      color: $dark-blue;
+    }
+  }
+  .scroll {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  ul {
+    display: flex;
+    margin-top: 2rem;
+    li {
+      height: auto;
+      margin: 0 1rem;
+    }
+  }
+}

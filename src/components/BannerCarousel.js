@@ -19,6 +19,7 @@ const BannerCarousel = () => {
       infiniteLoop
       interval={6000}
       showStatus={false}
+      showThumbs={false}
     >
       <div>
         <div className="carousel-1">
