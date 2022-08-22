@@ -19,7 +19,6 @@ const BannerCarousel = () => {
       infiniteLoop
       interval={6000}
       showStatus={false}
-      emulateTouch
     >
       <div>
         <div className="carousel-1">

@@ -7,6 +7,10 @@
   width: 100%;
   .social-nav {
     background-color: $dark-blue;
+    display: none;
+    @include md {
+      display: flex;
+    }
     ul {
       display: flex;
       justify-content: flex-end;
@@ -31,7 +35,7 @@
       justify-content: space-between;
     }
     img {
-      max-width: 200px;
+      max-width: 180px;
     }
     .buttons {
       display: flex;
@@ -43,7 +47,7 @@
       cursor: pointer;
       display: flex;
       margin-left: 1rem;
-      padding: 1.2rem;
+      padding: 1rem;
       span {
         display: none;
         @include md {
