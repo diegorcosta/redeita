@@ -20,6 +20,7 @@
   }
   .scroll {
     scroll-behavior: smooth;
+    touch-action: pan-x;
     overflow-x: hidden;
   }
   ul {
