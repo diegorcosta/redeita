@@ -20,6 +20,7 @@ const BannerCarousel = () => {
       interval={6000}
       showStatus={false}
       showThumbs={false}
+      swipeable={false}
     >
       <div>
         <div className="carousel-1">
