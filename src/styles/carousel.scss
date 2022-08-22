@@ -1,0 +1,36 @@
+@import "./index.scss";
+.carousel-1,
+.carousel-2,
+.carousel-3,
+.carousel-4 {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  img {
+    height: auto;
+    max-width: 80rem;
+  }
+}
+
+.carousel-1 {
+  background: url("../img/carousel/carousel-bg-1.png") center center;
+  background-size: cover;
+  img {
+    max-width: 40rem;
+  }
+}
+.carousel-2 {
+  background: url("../img/carousel/carousel-bg-2.png") center center;
+  background-size: cover;
+}
+.carousel-3 {
+  background: url("../img/carousel/carousel-bg-3.png") center center;
+  background-size: cover;
+}
+.carousel-4 {
+  background: url("../img/carousel/carousel-bg-4.png") center center;
+  background-size: cover;
+  img {
+    max-width: 40rem;
+  }
+}

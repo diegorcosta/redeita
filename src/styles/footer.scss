@@ -1,0 +1,95 @@
+@import "./index.scss";
+
+.main-footer {
+  background-color: $dark-blue;
+  color: #fff;
+  a,
+  a:visited {
+    color: #fff;
+  }
+  a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+  address {
+    margin-top: 2rem;
+    p {
+      color: #fff;
+      font-size: 0.9rem;
+      font-style: normal;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @include md {
+      flex-direction: row;
+    }
+  }
+  .column {
+    @include md {
+      width: 33%;
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    @include md {
+      width: 40%;
+    }
+  }
+  .about,
+  .logos {
+    text-align: center;
+    @include md {
+      width: 24%;
+    }
+  }
+  .about {
+    margin-bottom: 3rem;
+    @include md {
+      margin-bottom: 0;
+    }
+  }
+  .logos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    img {
+      max-width: 240px;
+    }
+    @include md {
+      margin-top: 0;
+    }
+    span {
+      max-width: 240px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      h4 {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+      }
+      .column {
+        width: 45%;
+        img {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  img {
+    height: auto;
+    max-width: 320px;
+    width: 100%;
+  }
+  ul {
+    margin-top: 0.8rem;
+    margin-bottom: 1.4rem;
+  }
+}

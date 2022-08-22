@@ -1,0 +1,47 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+//screen size
+$screen-md-min: 54.8rem;
+$screen-lg-min: 80rem;
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+//colors
+$dark-blue: #062a5e;
+$main-blue: #005cff;
+
+* {
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+.container {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: $screen-lg-min;
+  width: 100%;
+}
