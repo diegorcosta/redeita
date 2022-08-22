@@ -90,29 +90,35 @@ const Footer = () => {
         </div>
 
         <div className="logos">
-          <img
-            className="logo-fundacao"
-            src={logoFundacao}
-            alt="Logotipo Fundação Pedro Américo"
-          />
+          <a href="/">
+            <img
+              className="logo-fundacao"
+              src={logoFundacao}
+              alt="Logotipo Fundação Pedro Américo"
+            />
+          </a>
           <span>
             <div className="column">
               <div>
                 <h4>Parceria</h4>
-                <img
-                  className="logo-unifacisa"
-                  src={logoUnifacisa}
-                  alt="Logotipo Unifacisa"
-                />
+                <a href="/">
+                  <img
+                    className="logo-unifacisa"
+                    src={logoUnifacisa}
+                    alt="Logotipo Unifacisa"
+                  />
+                </a>
               </div>
             </div>
             <div className="column">
               <h4>Filiada</h4>
-              <img
-                className="logo-cultura"
-                src={logoCultura}
-                alt="Logotipo Cultura"
-              />
+              <a href="/">
+                <img
+                  className="logo-cultura"
+                  src={logoCultura}
+                  alt="Logotipo Cultura"
+                />
+              </a>
             </div>
           </span>
         </div>
