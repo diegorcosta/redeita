@@ -20,7 +20,11 @@ const Header = () => {
                 <span>Ao vivo</span>
               </button>
             </a>
-            <a href="/">
+            <a
+              href="https://wa.me/558399810545309?text=Olá!%20Quero%20sugerir%20uma%20pauta!"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <BsWhatsapp />
                 <span>Fale com a redação</span>

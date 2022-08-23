@@ -7,7 +7,7 @@ import logoUnifacisa from "../img/logo-unifacisa.svg";
 import logoCultura from "../img/logo-cultura.svg";
 
 //icons
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 //styles
 import "../styles/footer.scss";
@@ -19,27 +19,33 @@ const Footer = () => {
         <div className="container">
           <ul>
             <li>
-              <a href="/">
+              <a
+                href="https://www.facebook.com/rede.ita.oficial"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FaFacebook />
                 Facebook
               </a>
             </li>
             <li>
-              <a href="/">
+              <a
+                href="https://www.instagram.com/rede.ita"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FaInstagram />
                 Instagram
               </a>
             </li>
             <li>
-              <a href="/">
+              <a
+                href="https://www.youtube.com/c/JornalismoIta"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FaYoutube />
                 Youtube
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <FaTwitter />
-                Twitter
               </a>
             </li>
           </ul>
@@ -65,10 +71,22 @@ const Footer = () => {
             <h2>Programas</h2>
             <ul>
               <li>
-                <a href="/">Diversidade</a>
+                <a
+                  href="https://www.youtube.com/watch?v=NcyHDaUQpbg&list=PLJmzgIqj_KQTQFC3wGCD3RbukTVTCFZS_"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Diversidade
+                </a>
               </li>
               <li>
-                <a href="/">ITN</a>
+                <a
+                  href="https://www.youtube.com/watch?v=0JBg8Grc5AE&list=PLJmzgIqj_KQQBbsbohpEs4ypDqN6rqE2q"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  ITN
+                </a>
               </li>
               <li>
                 <a href="/">É Bom Saber</a>
@@ -77,19 +95,49 @@ const Footer = () => {
                 <a href="/">Ponto a Ponto</a>
               </li>
               <li>
-                <a href="/">Em Dia</a>
+                <a
+                  href="https://www.youtube.com/watch?v=lMcvJhdb8hc&list=PLJmzgIqj_KQScOFHhB0leFzfGRvF8PbVA"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Em Dia
+                </a>
               </li>
               <li>
-                <a href="/">Ita Esportes</a>
+                <a
+                  href="https://www.youtube.com/watch?v=C8ATCNm43M4&list=PLJmzgIqj_KQR5YV-FIhS_yO-WRGBxVA6o"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Ita Esportes
+                </a>
               </li>
               <li>
-                <a href="/">Ita FC</a>
+                <a
+                  href="https://www.youtube.com/watch?v=CmWrF3drfj4&list=PLJmzgIqj_KQQIrAiXEXaQuiHTyU6o6f-w"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Ita FC
+                </a>
               </li>
               <li>
-                <a href="/">Ideia Livre</a>
+                <a
+                  href="https://www.youtube.com/watch?v=Ect5K4YZMrc&list=PLJmzgIqj_KQQ9RDYcn2odSW-LQAn5GEXT"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Ideia Livre
+                </a>
               </li>
               <li>
-                <a href="/">IT Games</a>
+                <a
+                  href="https://www.youtube.com/watch?v=aFGibioUOhY&list=PLJmzgIqj_KQTtu2k-J4OhHPS3g25noEXE"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  IT Games
+                </a>
               </li>
             </ul>
           </div>
@@ -98,13 +146,31 @@ const Footer = () => {
             <h2>Fale Conosco</h2>
             <ul>
               <li>
-                <a href="/">WhatsApp</a>
+                <a
+                  href="https://wa.me/55839981054530?text=Contato%20via%20site"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Programação - Link WhatsApp
+                </a>
               </li>
               <li>
-                <a href="/">Redação</a>
+                <a
+                  href="https://wa.me/558399810545309?text=Olá,%20quero%20sugerir%20uma%20pauta"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Redação
+                </a>
               </li>
               <li>
-                <a href="/">Comercial</a>
+                <a
+                  href="mailto:comercial@tvitarare.com.br"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Comercial
+                </a>
               </li>
               <li>
                 <a href="/">Ouvidoria</a>
@@ -116,14 +182,24 @@ const Footer = () => {
                 <a href="/">Editais</a>
               </li>
               <li>
-                <a href="/">Trabalhe conosco</a>
+                <a
+                  href="https://unifacisa.solides.jobs/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Trabalhe conosco
+                </a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="logos">
-          <a href="/">
+          <a
+            href="http://www.fundacaopedroamerico.org.br/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img
               className="logo-fundacao"
               src={logoFundacao}
@@ -134,7 +210,11 @@ const Footer = () => {
             <div className="column">
               <div>
                 <h4>Parceria</h4>
-                <a href="/">
+                <a
+                  href="https://www.unifacisa.edu.br/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <img
                     className="logo-unifacisa"
                     src={logoUnifacisa}
@@ -145,7 +225,11 @@ const Footer = () => {
             </div>
             <div className="column">
               <h4>Filiada</h4>
-              <a href="/">
+              <a
+                href="http://tvcultura.com.br/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   className="logo-cultura"
                   src={logoCultura}

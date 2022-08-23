@@ -27,7 +27,7 @@ const Programas = () => {
             <ul>
               {listaProgramas.map((programa) => (
                 <li key={programa.id}>
-                  <a href="/">
+                  <a href={programa.link} target="_blank" rel="noreferrer">
                     <img src={programa.src} alt={programa.alt} />
                   </a>
                 </li>

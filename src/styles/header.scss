@@ -5,40 +5,6 @@
   top: 0;
   z-index: 999;
   width: 100%;
-  .social-nav {
-    background-color: $dark-blue;
-    display: none;
-    @include md {
-      display: flex;
-    }
-    .content {
-      align-items: center;
-      justify-content: space-between;
-      display: flex;
-      padding: 1rem 2rem;
-      margin: 0 auto;
-      max-width: $screen-lg-min;
-      width: 100%;
-    }
-    .logo {
-      align-items: center;
-      display: flex;
-      img {
-        margin-right: 2rem;
-        height: 30px;
-      }
-    }
-    ul {
-      display: flex;
-      justify-content: flex-end;
-      li {
-        margin-left: 1rem;
-        svg {
-          fill: $light-blue;
-        }
-      }
-    }
-  }
 
   .main-menu {
     width: 100%;
