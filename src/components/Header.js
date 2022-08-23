@@ -14,7 +14,11 @@ const Header = () => {
         <div className="container">
           <img src={logoRedeita} alt="Logotipo Rede Ita" />
           <div className="buttons">
-            <a href="/">
+            <a
+              href="https://www.youtube.com/c/JornalismoIta"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>
                 <BsFillPlayCircleFill />
                 <span>Ao vivo</span>

@@ -151,7 +151,7 @@ const Footer = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Programação - Link WhatsApp
+                  Programação
                 </a>
               </li>
               <li>
@@ -173,7 +173,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/">Ouvidoria</a>
+                <a href="tel:8321018212" target="_blank" rel="noreferrer">
+                  Ouvidoria
+                </a>
               </li>
             </ul>
             <h2>Links úteis</h2>
