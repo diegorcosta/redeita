@@ -9,26 +9,31 @@
     padding-bottom: 1rem;
     width: 100%;
   }
-  .arrow {
-    align-items: center;
-    display: flex;
-    svg {
-      font-size: 8rem;
-      cursor: pointer;
-      color: $light-blue;
-    }
-  }
-  .scroll {
-    scroll-behavior: smooth;
-    touch-action: pan-x;
-    overflow-x: hidden;
-  }
   ul {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
+    justify-content: space-between;
     li {
+      width: 45%;
       height: auto;
-      margin: 0 1rem;
+      margin-bottom: 2rem;
+      img {
+        width: 100%;
+      }
+      a,
+      a:visited {
+        transition: transform 1s;
+      }
+      a:hover,
+      a:active {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      @include md {
+        width: 22%;
+      }
     }
   }
 }
